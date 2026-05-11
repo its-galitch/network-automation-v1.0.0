@@ -1,0 +1,12 @@
+id,label,host,device_type,username,password
+1,Core-Router,192.168.197.130,cisco_ios,admin,P@ssw0rd123
+2,Core-Switch,192.168.197.131,cisco_ios,admin,P@ssw0rd123
+3,Branch-Router,192.168.197.132,cisco_ios,admin,P@ssw0rd123
+4,Branch-Switch,192.168.197.133,cisco_ios,admin,P@ssw0rd123
+
+
+
+
+
+
+
