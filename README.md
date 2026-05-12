@@ -6,6 +6,7 @@ This repository contains a set of Python scripts for automating network device m
 
 - **`backup_network_config.py`**: Connects to devices in the inventory and saves their running configuration to the `network_backups` directory with a timestamp.
 - **`deploy_logging_config.py`**: Configures syslog settings on network devices, ensuring they report logs to a centralized syslog server.
+- **`health_status.py`**: Performs a comprehensive network audit, including configuration backups, CPU utilization checks, and interface status monitoring, presenting the results in a formatted table.
 - **`router_status.py`**: Connects to a specific router and retrieves the status of its interfaces using SSH.
 - **`syslog_listener.py`**: A simple UDP server that listens on port 514 for incoming syslog messages and prints alerts for specific events.
 - **`load_devices.py`**: A utility module to load device inventory from a CSV file.
